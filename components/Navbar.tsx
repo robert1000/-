@@ -74,6 +74,7 @@ const Navbar: React.FC = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-12">
           <a href="#home" onClick={(e) => scrollToSection(e, 'home')} className={linkClasses}>首頁</a>
+          <a href="#diagnosis" onClick={(e) => scrollToSection(e, 'diagnosis')} className={linkClasses}>形象診斷</a>
           <a href="#products" onClick={(e) => scrollToSection(e, 'products')} className={linkClasses}>精選型錄</a>
           <a href="#muse" onClick={(e) => scrollToSection(e, 'muse')} className={linkClasses}>設計顧問</a>
           <a href="#gallery" onClick={(e) => scrollToSection(e, 'gallery')} className={linkClasses}>應用案例</a>
@@ -92,6 +93,7 @@ const Navbar: React.FC = () => {
       <div className={`md:hidden absolute top-full left-0 w-full bg-auri-base shadow-lg transition-all duration-300 overflow-hidden ${isMobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
         <div className="flex flex-col items-center space-y-6 py-8 font-serif text-lg text-auri-charcoal">
           <a href="#home" onClick={(e) => scrollToSection(e, 'home')}>首頁</a>
+          <a href="#diagnosis" onClick={(e) => scrollToSection(e, 'diagnosis')}>形象診斷</a>
           <a href="#products" onClick={(e) => scrollToSection(e, 'products')}>精選型錄</a>
           <a href="#muse" onClick={(e) => scrollToSection(e, 'muse')}>設計顧問</a>
           <a href="#gallery" onClick={(e) => scrollToSection(e, 'gallery')}>應用案例</a>
