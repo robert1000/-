@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import ProductSection from './components/MenuSection'; // Component exported as ProductSection inside MenuSection.tsx
 import MuseAI from './components/MuseAI';
 import Gallery from './components/Gallery';
+import Diagnosis from './components/Diagnosis';
 import Footer from './components/Footer';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <Diagnosis />
         <ProductSection />
         <MuseAI />
         <Gallery />
